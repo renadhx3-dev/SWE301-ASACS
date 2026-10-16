@@ -7,5 +7,4 @@
 2-Latefa Jazaa
 3-Nourah Almutairi
 ### Project Proposal
-[view project proposal]
-(PROJECT_PROPOSAL.md)
+[View Project Proposal](PROJECT_PROPOSAL.md)
