@@ -9,11 +9,14 @@
 
    #### Main Actors 
    1.student 
-     the main user who selects courses, tracks deadlines, updates personal calendars.
+    
+  the main user who selects courses, tracks deadlines, updates personal calendars.
   
    2.Instructor (faculty Member)
+   
    the faculty member who uploads syllabi, reviews dates, sets quiz deadlines.
    
    3.Academic Department 
+   
    the administrative team that oversees schedules and approves final exame
 
