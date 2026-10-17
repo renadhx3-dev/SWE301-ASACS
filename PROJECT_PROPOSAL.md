@@ -7,7 +7,7 @@
   ### Why It Matters
   The ASACS system provides one personalized academic calendar that includes  important dates for all the student's courses. This makes it easier for students to stay organized, manage their academic schedules, keep track of important academic events, and reducing the chance of missing important deadlines. 
 
-   #### Main Actors 
+   ### Main Actors 
    1.student 
     
   the main user who selects courses, tracks deadlines, updates personal calendars.
