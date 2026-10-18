@@ -20,4 +20,50 @@
    
    the administrative team that oversees schedules and approves final exame
 
-4.4 Proposed Solution and Justification
+### 4.4 Proposed Solution and Justification
+  
+1.Justifiction:
+  ASACS will be developed as a web based system with three main user roles:
+  students, instructors, and the academic department.
+   
+  Instructors will upload course syllabi, from which the system will extract assessment information and generate suggested dates. 
+
+  The system will analyze scheduling conflicts and student workload using course difficulty ratings and shared student enrollment. 
+
+
+  The academic department will be able to review scheduling recommendations and approve official examination dates.
+
+2.Proposed Solution
+  The solution is combines academic scheduling with personal calendar integration rather than requiring students to use a separate calendar application.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
