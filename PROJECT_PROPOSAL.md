@@ -22,12 +22,76 @@
 
 ### 4.4 Proposed Solution and Justification
   
-#### 4.4.1 Proposed Solution:
-  ASACS is a proposed web based system that will help students, instructors, and academic departments coordinate schedules. 
-  The system will use information from course syllabi to identify assessments and suggest intial dates. 
-  It will also detect scheduling conflicts and provide recommendations by considering factors such as course difficulty,shared student enrollment, and available examination periods.
+#### Proposed Solution:
+  ASACS is a web based system that extracts assessment information from course syllabi and suggest intial dates.
+  It identifies scheduling conflicts and recommends suitable dates based on course difficulty, shared student enrollment, and available examination periods. 
+  The system also allows students to integrate their academic schedules with their personal calendars, while instructors and academic departments manage and approve assessment dates according to their responsibilities.
 
-  Instructors will manage assessment dates, while academic departments can review scheduleing recommendations and approve official examination schedules. Students will be able to view their academic events and integrate them with their existing personal calendars.
+#### Justification
+
+  A small prototype can be developed by three students using simulated academic data and focusing on basic assessment management, conflict detection, and calendar integration. 
+  Existing software libraries may also be reused to simplify development.
+
+### 4.5 Scope and Workflows
+
+#### In Scope
+
+  The initial ASACS prototype will include course and section selection, assessment date management, basic scheduling conflict detection, and recommendations for suitable assessment dates. Students will be able to view their academic schedules and export events to personal calendar applications.
+
+#### Out of Scope
+
+  The initial prototype will not include integration with live university databases, automatic verification of real student enrollments, or deployment as an official university-wide scheduling system. These capabilities may be considered in future development.
+
+#### End-to-End Workflows
+
+  Workflow 1: Student Academic Calendar
+  A student selects their courses and sections. ASACS displays the relevant assessments and their dates, allowing the student to review the schedule and export academic events to a personal calendar.
+
+  Workflow 2: Instructor Assessment Management
+  An instructor provides assessment information for a course. ASACS identifies the relevant events and allows the instructor to review, confirm, or update their dates. The updated schedule becomes available to students enrolled in the relevant section.
+
+  Workflow 3: Academic Exam Scheduling
+  The academic department reviews assessment schedules and receives recommendations for reducing conflicts based on factors such as course difficulty and shared student enrollment. The department can review and approve the proposed exam dates, which are then reflected in students’ academic schedules.
+
+### 4.6 Initial Requirements
+
+#### Functional Requirements
+
+##### FR1 – Course and Section Selection 
+  The system shall allow students to select and update their courses and sections.
+
+##### FR2 – Assessment Information Entry 
+  The system shall allow instructors to provide assessment information for their courses.
+
+##### FR3 – Assessment Identification 
+  The system shall identify assessment dates from the provided course information.
+
+##### FR4 – Assessment Date Management 
+  The system shall allow instructors to review, confirm, and update assessment dates.
+
+##### FR5 – Scheduling Conflict Detection 
+  The system shall detect scheduling conflicts between assessments.
+
+##### FR6 – Scheduling Recommendations 
+  The system shall recommend suitable assessment dates based on scheduling constraints and academic workload factors.
+
+##### FR7 – Examination Schedule Approval 
+  The system shall allow academic departments to review and approve proposed examination dates.
+
+##### FR8 – Calendar Export 
+  The system shall allow students to export their academic schedules to personal calendar applications.
+
+#### Non-Functional Requirements
+
+##### NFR1 – Performance
+  The system shall display a student’s academic schedule within 3 seconds under normal prototype testing conditions.
+
+##### NFR2 – Usability
+  At least 80% of test users shall be able to select their courses and view their academic schedules without assistance.
+
+##### NFR3 – Reliability
+  The system shall successfully save and retrieve assessment dates in at least 95% of repeated test operations.
+  
 
 
    
