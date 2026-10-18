@@ -42,6 +42,15 @@ reducing scheduling conflicts.
    
    the administrative team that oversees schedules and approves final exame
 
+### 4.3 Existing Solutions
+
+| Existing Process or Solution | Useful Features | Limitation for Users | Source |
+| :--- | :--- | :--- | :--- |
+| **Course Syllabi** | Outlines all course requirements, assignments, and exam expectations. | Students must manually check multiple documents, increasing the risk of missing updates or deadlines. | Course documents and syllabi |
+| **Moodle Calendar** | Centralizes academic events inside the university's learning management system. | Primarily displays events manually created within Moodle (like online quizzes and assignments), so it may not automatically reflect overall syllabus timelines or synchronize directly with external personal calendars. | Official Moodle documentation |
+| **Google Calendar** | Offers flexible personal scheduling and cross-device syncing. | Does not automatically pull academic assessments without manual entry or external integrations. | Official Google Calendar documentation |
+
+
 ## 4.4 Proposed Solution and Justification
   
 #### Proposed Solution:
