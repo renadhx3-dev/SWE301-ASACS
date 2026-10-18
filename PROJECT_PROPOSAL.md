@@ -163,5 +163,9 @@ All team members will collaborate on major project activities, review each other
 
 
 
+## References
 
+1. **Course Syllabi:** University Course Syllabus Documentation and Academic Policy Guidelines. (Used as a reference for course requirements, assignments, and curriculum expectations).
+2. **Moodle Calendar:** Arab Open University Learning Management System (AOU LMS). *Academic Events and Course Calendar*. Available at: https://lms.aasu.edu.kw/my/
+3. **Google Calendar:** Google Support. *Create and Manage Events in Google Calendar*. Available at: https://support.google.com/calendar/
 
