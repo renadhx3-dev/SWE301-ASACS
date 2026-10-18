@@ -3,7 +3,7 @@
 
 **Course:** SWE301 – Software Process and Methodologies
 
-**Group:** [Your Group Letter]
+**Group:** C
 
 ## Team Members
 - Renad H Alotaibi
