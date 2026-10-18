@@ -65,26 +65,44 @@ The administrative team responsible for reviewing examination scheduling recomme
 
   Unlike course syllabi and general calendar applications, ASACS combines assessment information with conflict detection and scheduling recommendations while supporting personal calendars. A small prototype is feasible for three students using simulated data and reusable software libraries.
 
+
 ## 4.5 Scope and Workflows
 
-#### In Scope
+### In Scope
 
-  The initial ASACS prototype will include course and section selection, assessment date management, basic scheduling conflict detection, and recommendations for suitable assessment dates. Students will be able to view their academic schedules and export events to personal calendar applications.
+The initial ASACS prototype will include:
 
-#### Out of Scope
+- Student course and section selection.
+- Personalized ICS calendar subscription for Google Calendar and Apple Calendar.
+- Automatic updates to the ICS feed when published assessment dates change.
+- Instructor assessment date management and review.
+- Academic department review and approval of official examination dates.
+- Basic scheduling conflict detection and rule-based recommendations based on course difficulty, shared student enrollment, and available examination periods.
 
-  The initial prototype will not include integration with live university databases, automatic verification of real student enrollments, or deployment as an official university-wide scheduling system. These capabilities may be considered in future development.
+### Out of Scope
 
-#### End-to-End Workflows
+The initial ASACS prototype will not include:
 
-  Workflow 1: Student Academic Calendar
-  A student selects their courses and sections. ASACS displays the relevant assessments and their dates, allowing the student to review the schedule and export academic events to a personal calendar.
+- Direct integration with live university databases.
+- Automatic verification of real student enrollment.
+- AI-based scheduling or advanced optimization algorithms.
+- Deployment as an official university-wide scheduling system.
+- Guaranteed instant synchronization with external calendar applications.
 
-  Workflow 2: Instructor Assessment Management
-  An instructor provides assessment information for a course. ASACS identifies the relevant events and allows the instructor to review, confirm, or update their dates. The updated schedule becomes available to students enrolled in the relevant section.
+### End-to-End Workflows
 
-  Workflow 3: Academic Exam Scheduling
-  The academic department reviews assessment schedules and receives recommendations for reducing conflicts based on factors such as course difficulty and shared student enrollment. The department can review and approve the proposed exam dates, which are then reflected in students’ academic schedules.
+**Workflow 1: Student Academic Calendar Subscription**
+
+A student logs in and selects their registered courses and sections. ASACS generates a personalized ICS calendar subscription link containing the relevant academic assessments. The student subscribes using Google Calendar or Apple Calendar. When published assessment dates change, ASACS updates the ICS feed, allowing the external calendar application to retrieve the latest information during its next refresh.
+
+**Workflow 2: Instructor Assessment Management**
+
+An instructor provides assessment information for a course, including dates identified from the syllabus. ASACS allows the instructor to review, correct, and confirm the assessment dates. Once published, the updated information becomes available to students enrolled in the relevant course sections and is reflected in their personalized ICS feeds.
+
+**Workflow 3: Academic Examination Scheduling**
+
+The academic department reviews examination schedules and receives rule-based recommendations to reduce scheduling conflicts and academic workload. These recommendations consider course difficulty, shared student enrollment, and permitted examination periods. The department reviews, adjusts, and approves official examination dates. Once approved and published, the dates become available in students' academic schedules and personalized ICS feeds.
+
 
 ## 4.6 Initial Requirements
 
@@ -111,8 +129,15 @@ The administrative team responsible for reviewing examination scheduling recomme
 ##### FR7 – Examination Schedule Approval 
   The system shall allow academic departments to review and approve proposed examination dates.
 
-##### FR8 – Calendar Export 
-  The system shall allow students to export their academic schedules to personal calendar applications.
+##### FR8 – Personalized Calendar Subscription
+The system shall provide each student with a personalized
+ICS calendar subscription feed for their selected courses
+and sections.
+
+##### FR9 – Calendar Feed Updates
+The system shall update the ICS calendar feed when
+published assessment dates change.
+
 
 #### Non-Functional Requirements
 
@@ -127,7 +152,7 @@ The administrative team responsible for reviewing examination scheduling recomme
   
 ## 4.7 Development Approach 
 
-  our team chose **Incremental Development** to develop ASACS this approach allows us to divide the system into smaller, manageable increments. As each increment is developed, functional components can be tested and reviewed. we will the core calendar subscription functionality, followed by assessment schedule management and recommendations. after each increment, the team will conduct testing and collect feedback to issues and improve the system before proceeding the next increment. this approach is suitable for our team and the limited semester timeline since it will help us prioritize essential and manage development risks. We plan to reuse existing technologies, such as the iCalendar (ICS) standard and suitable software libraries, to reduce implementation complexity. Testing calendar subscriptions early will help us identify compatibility and synchronization issues before developing more advanced scheduling features. This approach also allows us to adjust later increments based on feedback while maintaining a realistic project scope.
+  our team chose **Incremental Development** to develop ASACS this approach allows us to divide the system into smaller, manageable increments. As each increment is developed, functional components can be tested and reviewed. we will begin with the core calendar subscription functionality, followed by assessment schedule management and recommendations. after each increment, the team will conduct testing and collect feedback to identify issues and improve the system before proceeding the next increment. this approach is suitable for our team and the limited semester timeline since it will help us prioritize essential and manage development risks. We plan to reuse existing technologies, such as the iCalendar (ICS) standard and suitable software libraries, to reduce implementation complexity. Testing calendar subscriptions early will help us identify compatibility and synchronization issues before developing more advanced scheduling features. This approach also allows us to adjust later increments based on feedback while maintaining a realistic project scope.
 
 
 
@@ -159,8 +184,6 @@ All team members will collaborate on major project activities, review each other
 | Calendar Synchronization Issues | Delayed updates in external calendar applications may cause students to temporarily view outdated assessment dates. | Test ICS subscriptions and updates early, display the latest approved dates within ASACS, and inform users that calendar refresh timing depends on the provider. |
 | Limited Development Time | Complex features may delay prototype completion or reduce the time available for testing. | Use incremental development, prioritize core features such as personalized calendar subscription, and monitor progress through project milestones. |
 | Inaccurate Scheduling Recommendations | Incomplete course data or incorrect scheduling rules may produce unsuitable assessment date suggestions. | Test rule-based recommendations using simulated data and require academic department approval before publishing official exam dates. |
-
-
 
 
 ## References
