@@ -20,3 +20,4 @@
    
    the administrative team that oversees schedules and approves final exame
 
+4.4 Proposed Solution and Justification
