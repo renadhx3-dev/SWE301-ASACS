@@ -185,10 +185,31 @@ All team members will collaborate on major project activities, review each other
 | Limited Development Time | Complex features may delay prototype completion or reduce the time available for testing. | Use incremental development, prioritize core features such as personalized calendar subscription, and monitor progress through project milestones. |
 | Inaccurate Scheduling Recommendations | Incomplete course data or incorrect scheduling rules may produce unsuitable assessment date suggestions. | Test rule-based recommendations using simulated data and require academic department approval before publishing official exam dates. |
 
+## 4.9 Sources, AI Use, and Contributions
 
-## References
+### Sources
 
-1. **Course Syllabi:** University Course Syllabus Documentation and Academic Policy Guidelines. (Used as a reference for course requirements, assignments, and curriculum expectations).
-2. **Moodle Calendar:** Arab Open University Learning Management System (AOU LMS). *Academic Events and Course Calendar*. Available at: https://lms.aasu.edu.kw/my/
-3. **Google Calendar:** Google Support. *Create and Manage Events in Google Calendar*. Available at: https://support.google.com/calendar/
+1. **Course Syllabi:** University Course Syllabus Documentation and Academic Policy Guidelines. Used as a reference for course requirements, assignments, and curriculum expectations.
+
+2. **Moodle Calendar:** Abdullah Al-Salem University (AASU) Learning Management System. *Academic Events and Course Calendar*. Available at: https://lms.aasu.edu.kw/my/
+
+3. **Google Calendar:** Google Support. *Google Calendar Help*. Available at: https://support.google.com/calendar/
+
+### Generative AI Use
+
+ChatGPT was used to help understand the assignment instructions, organize the proposal structure, improve the clarity of the content, and review the development approach, project requirements, and potential risks.
+
+AI-generated suggestions were reviewed and modified to match the team's project idea, requirements, and scope. The team is responsible for verifying the accuracy of the information and ensuring that the final proposal reflects the intended ASACS system.
+
+### Team Contributions
+
+| Team Member | Contribution to the Proposal |
+|---|---|
+| Renad H Alotaibi | Responsible for Section 4.1 (Team Information), Section 4.7 (Development Approach), Section 4.8 (Team Plan and Risks). |
+| Latefa Jazaa | Responsible for Section 4.4 (Proposed Solution and Justification), Section 4.5 (Scope and Workflows), and Section 4.6 (Initial Requirements). |
+| Nourah Almutairi | Responsible for Section 4.2 (Problem and Users) and Section 4.3 (Existing Solutions). |
+
+All the team member helped in section 4.9
+All team members will review the final proposal, provide feedback, and contribute to revisions before submission. Individual contributions will be documented through GitHub commits.
+
 
