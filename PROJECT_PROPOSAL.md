@@ -22,25 +22,28 @@ reducing scheduling conflicts.
 
 ## 4.2 Problem and users
 ### Problem:
-  University students often need to check multiple course syllabi to find important academic dates such as exams, quizzes, assignments, and projects. Since this information is spread across multiple documents, students spend extra time searching for important dates and may miss important deadlines or updates. Assessment dates may also change during the semester, making it difficult for students to stay informed and organize their study schedules. 
+   University students often need to check multiple course syllabi to find important academic dates such as exams, quizzes, assignment deadlines, and projects deadlines. Since this information is spread across different documents, students spend extra time searching for important dates and may miss deadlines or updates. Assessment dates may also change during the semester, making it difficult for students to stay informed and organize their study schedules. 
   
-  Instructors may also face difficulties coordinating assessment dates with other courses, while the academic department may find it challenging to organize official examination schedules and reduce scheduling conflicts across the university.
+  Instructors may also face difficulties coordinating assessment dates with other courses, which can result in scheduling conflicts and increased academic workload for students. Similarly, academic department may find it challenging to organize official examination schedules while considering course difficulty, shared student enrollment, and the time between exams. 
 
   ### Why It Matters
-  The ASACS system provides one personalized academic calendar that includes  important dates for all the student's courses. This makes it easier for students to stay organized, manage their academic schedules, keep track of important academic events, and reducing the chance of missing important deadlines. 
-
-   ### Main Actors 
-   1.student 
-    
-  the main user who selects courses, tracks deadlines, updates personal calendars.
+  ASACS system provides students with a personalized academic calendar that includes important dates for all their selected courses. This helps students stay organized, manage their academic schedules, and reduce the risk of missing important deadlines.
   
-   2.Instructor (faculty Member)
-   
-   the faculty member who uploads syllabi, reviews dates, sets quiz deadlines.
-   
-   3.Academic Department 
-   
-   the administrative team that oversees schedules and approves final exame
+ Additionally, ASACS supports instructors and academic departments by identifying scheduling conflicts and recommending suitable assessment dates based on student workload. This can help reduce academic pressure and improve examination planning.  
+ 
+   ### Main Actors 
+  **1. Student**
+
+The primary user who selects courses and sections, tracks academic deadlines, receives notifications, and synchronizes academic events with personal calendar applications.
+
+**2. Instructor (Faculty Member)**
+
+The faculty member who uploads course syllabi, reviews suggested assessment dates, manages quizzes and assignment deadlines, and checks scheduling conflicts.
+
+**3. Academic Department**
+
+The administrative team responsible for reviewing examination scheduling recommendations, managing official examination periods, and approving final midterm and final examination schedules.
+
 
 ### 4.3 Existing Solutions
 
