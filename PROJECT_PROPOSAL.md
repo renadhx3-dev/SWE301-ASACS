@@ -1,5 +1,27 @@
 
-### Problem and users
+## 4.1 Team Information
+
+**Project Title:** ASACS – Automatic Student Academic Calendar System
+
+**Group Letter:** C
+
+**Team Members:**
+- Renad H Alotaibi
+- Latefa Jazaa
+- Nourah Almutairi
+
+**GitHub Repository URL:** [SWE301-ASACS Repository](https://github.com/renadhx3-dev/SWE301-ASACS)
+
+**Project Summary:**
+
+ASACS is a web-based academic scheduling system that
+automatically synchronizes assessment dates with students'
+personal calendars and supports instructors and academic
+departments in coordinating assessment schedules and
+reducing scheduling conflicts.
+
+## 4.2 Problem and users
+### Problem:
   University students often need to check multiple course syllabi to find important academic dates such as exams, quizzes, assignments, and projects. Since this information is spread across multiple documents, students spend extra time searching for important dates and may miss important deadlines or updates. Assessment dates may also change during the semester, making it difficult for students to stay informed and organize their study schedules. 
   
   Instructors may also face difficulties coordinating assessment dates with other courses, while the academic department may find it challenging to organize official examination schedules and reduce scheduling conflicts across the university.
@@ -20,7 +42,7 @@
    
    the administrative team that oversees schedules and approves final exame
 
-### 4.4 Proposed Solution and Justification
+## 4.4 Proposed Solution and Justification
   
 #### Proposed Solution:
   ASACS is a web based system that extracts assessment information from course syllabi and suggest intial dates.
@@ -32,7 +54,7 @@
   A small prototype can be developed by three students using simulated academic data and focusing on basic assessment management, conflict detection, and calendar integration. 
   Existing software libraries may also be reused to simplify development.
 
-### 4.5 Scope and Workflows
+## 4.5 Scope and Workflows
 
 #### In Scope
 
@@ -53,7 +75,7 @@
   Workflow 3: Academic Exam Scheduling
   The academic department reviews assessment schedules and receives recommendations for reducing conflicts based on factors such as course difficulty and shared student enrollment. The department can review and approve the proposed exam dates, which are then reflected in students’ academic schedules.
 
-### 4.6 Initial Requirements
+## 4.6 Initial Requirements
 
 #### Functional Requirements
 
