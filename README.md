@@ -23,7 +23,7 @@ with Google Calendar or Apple Calendar.
 also it supports instructors and academic departments in
 coordinating assessment schedules, detecting scheduling conflicts,
 and recommending suitable exam dates based on student workload
-and course difficulty
+and course difficulty.
 
 ## Project Proposal
 
