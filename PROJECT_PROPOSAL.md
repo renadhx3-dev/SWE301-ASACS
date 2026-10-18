@@ -127,6 +127,35 @@ reducing scheduling conflicts.
   our team chose **Incremental Development** to develop ASACS this approach allows us to divide the system into smaller, manageable increments. As each increment is developed, functional components can be tested and reviewed. we will the core calendar subscription functionality, followed by assessment schedule management and recommendations. after each increment, the team will conduct testing and collect feedback to issues and improve the system before proceeding the next increment. this approach is suitable for our team and the limited semester timeline since it will help us prioritize essential and manage development risks. We plan to reuse existing technologies, such as the iCalendar (ICS) standard and suitable software libraries, to reduce implementation complexity. Testing calendar subscriptions early will help us identify compatibility and synchronization issues before developing more advanced scheduling features. This approach also allows us to adjust later increments based on feedback while maintaining a realistic project scope.
 
 
+## 4.8 Team Plan and Risks
+
+### Team Roles and Responsibilities
+
+| Team Member | Role and Responsibilities |
+|---|---|
+| Renad | **Team Coordination, System Design, and Quality Assurance:** Coordinates communication and collaboration among team members, contributes to system architecture and design, and oversees quality checks to ensure ASACS meets its requirements. |
+| Latefa | **Requirements Engineering, Implementation, and Testing:** Defines and documents system requirements, implements system features, and performs testing to verify that the system functions correctly. |
+| Nourah | **Progress Tracking, Milestones, and Workflows:** Monitors project progress, tracks milestones and deadlines, and documents the three end-to-end workflows of ASACS. |
+
+All team members will collaborate on major project activities, review each other's work, and contribute throughout the development process.
+
+### Project Milestones
+
+| Milestone | Planned Activities | Expected Deliverable |
+|---|---|---|
+| 1. Project Proposal | Define the problem, users, project scope, initial requirements, and development approach. | Completed project proposal. |
+| 2. Requirements and Models | Refine functional and non-functional requirements and document system workflows and models. | Requirements specification and system models. |
+| 3. Design and Initial Prototype | Design the system architecture and develop an initial prototype focusing on course selection and personalized ICS calendar subscription. | System design and initial working prototype. |
+| 4. Final Prototype, Testing, and Presentation | Integrate the core features, test calendar synchronization and scheduling functionality, document results, and prepare the final presentation. | Final prototype, testing results, and presentation. |
+
+### Project Risks
+
+| Risk | Potential Impact | Planned Response |
+|---|---|---|
+| Calendar Synchronization Issues | Delayed updates in external calendar applications may cause students to temporarily view outdated assessment dates. | Test ICS subscriptions and updates early, display the latest approved dates within ASACS, and inform users that calendar refresh timing depends on the provider. |
+| Limited Development Time | Complex features may delay prototype completion or reduce the time available for testing. | Use incremental development, prioritize core features such as personalized calendar subscription, and monitor progress through project milestones. |
+| Inaccurate Scheduling Recommendations | Incomplete course data or incorrect scheduling rules may produce unsuitable assessment date suggestions. | Test rule-based recommendations using simulated data and require academic department approval before publishing official exam dates. |
+
 
 
 
