@@ -51,8 +51,7 @@ reducing scheduling conflicts.
 
 #### Justification
 
-  A small prototype can be developed by three students using simulated academic data and focusing on basic assessment management, conflict detection, and calendar integration. 
-  Existing software libraries may also be reused to simplify development.
+  Unlike course syllabi and general calendar applications, ASACS combines assessment information with conflict detection and scheduling recommendations while supporting personal calendars. A small prototype is feasible for three students using simulated data and reusable software libraries.
 
 ## 4.5 Scope and Workflows
 
@@ -114,22 +113,9 @@ reducing scheduling conflicts.
 ##### NFR3 – Reliability
   The system shall successfully save and retrieve assessment dates in at least 95% of repeated test operations.
   
+## 4.7 Development Approach 
 
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
+  our team chose **Incremental Development** to develop ASACS this approach allows us to divide the system into smaller, manageable increments. As each increment is developed, functional components can be tested and reviewed. we will the core calendar subscription functionality, followed by assessment schedule management and recommendations. after each increment, the team will conduct testing and collect feedback to issues and improve the system before proceeding the next increment. this approach is suitable for our team and the limited semester timeline since it will help us prioritize essential and manage development risks. We plan to reuse existing technologies, such as the iCalendar (ICS) standard and suitable software libraries, to reduce implementation complexity. Testing calendar subscriptions early will help us identify compatibility and synchronization issues before developing more advanced scheduling features. This approach also allows us to adjust later increments based on feedback while maintaining a realistic project scope.
 
 
 
