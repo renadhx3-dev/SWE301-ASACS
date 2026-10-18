@@ -22,7 +22,7 @@
 
 ### 4.4 Proposed Solution and Justification
   
-# Proposed Solution:
+#### Proposed Solution:
   ASACS is a proposed web based system that will help students, instructors, and academic departments coordinate schedules. 
   The system will use information from course syllabi to identify assessments and suggest intial dates. 
   It will also detect scheduling conflicts and provide recommendations by considering factors such as course difficulty,shared student enrollment, and available examination periods.
