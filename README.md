@@ -28,3 +28,8 @@ and course difficulty.
 ## Project Proposal
 
 [View Project Proposal](PROJECT_PROPOSAL.md)
+
+## Sprint 1 Planning
+
+- [Sprint 1 Plan](SPRINT_1_PLAN.md)
+- [GitHub Project Board](https://github.com/users/renadhx3-dev/projects/1)
