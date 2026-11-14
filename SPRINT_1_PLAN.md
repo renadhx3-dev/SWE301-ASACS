@@ -29,11 +29,11 @@ By the end of this sprint, the team aims to have clear and reviewed specificatio
 
 ## Selected Issues
 
-| Issue	  | Assignment 1 source	        | Owner	            | Expected outcome	                                                                                                                                               | Reviewed acceptance criteria
-| #1	    | Workflow 1 / FR-01	        | Renad H Alotaibi  | Document course and section selection and update rules, with at least two test scenarios.	                                                                       | Course and section selection and update rules are documented, at least two test scenarios are included, and the rules are reviewed for clarity and consistency.
-| #2	    | Workflow 1 / FR-08	        | Renad H Alotaibi  | Document personalized ICS subscription generation, calendar event contents, and Google/Apple Calendar subscription steps.                                       | Link generation, assessment coverage, event details, subscription steps, and review using simulated data are specified.
-| #3	    | Workflow 1 / FR-09	        | Nourah Almutairi  | Document ICS feed update behavior for published assessment date changes.                                                                                        | Update triggers, date-change handling, correct student calendars, external refresh schedules, and simulated change review are documented.
-| #9	    | Section 4.5, Workflows 1–3	| Latefa Jazaa      | Define the core academic scheduling data entities and their relationships to support student calendars, instructor assessments, and examination scheduling. | Main entities, relationships, ICS feed data, conflict detection and examination approval information are specified, with review against all three workflows required.
+| Issue	| Assignment 1 source | Owner | Expected outcome	                                                                                                                                               | Reviewed acceptance criteria
+| #1 | Workflow 1 / FR-01 | Renad H Alotaibi | Document course and section selection and update rules, with at least two test scenarios.	                                                                       | Course and section selection and update rules are documented, at least two test scenarios are included, and the rules are reviewed for clarity and consistency.
+| #2 | Workflow 1 / FR-08 | Renad H Alotaibi | Document personalized ICS subscription generation, calendar event contents, and Google/Apple Calendar subscription steps.                                       | Link generation, assessment coverage, event details, subscription steps, and review using simulated data are specified.
+| #3 | Workflow 1 / FR-09 | Nourah Almutairi | Document ICS feed update behavior for published assessment date changes.                                                                                        | Update triggers, date-change handling, correct student calendars, external refresh schedules, and simulated change review are documented.
+| #9 | Section 4.5, Workflows 1–3	| Latefa Jazaa | Define the core academic scheduling data entities and their relationships to support student calendars, instructor assessments, and examination scheduling. | Main entities, relationships, ICS feed data, conflict detection and examination approval information are specified, with review against all three workflows required.
 
 ## Workflow Rules
 
@@ -48,4 +48,5 @@ By the end of this sprint, the team aims to have clear and reviewed specificatio
 1. Renad H Alotaibi: Responsible for defining course and section selection rules (Issue #1) and specifying personalized ICS calendar subscription behavior (Issue #2).
 2. Nourah Almutairi: Responsible for defining how published assessment date changes are reflected in personalized ICS calendar feeds (Issue #3).
 3. Latefa Jazaa: Responsible for designing the core academic scheduling data model, including the main entities, relationships, and data needed to support student calendars, instructor assessments, and examination scheduling (Issue #9).
+
 All team members will review each other’s work, provide feedback, and help resolve blockers when needed. Completed work will be documented in the shared GitHub repository, with supporting evidence linked to the corresponding issues.
