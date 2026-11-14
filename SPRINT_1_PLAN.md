@@ -29,10 +29,16 @@ By the end of this sprint, the team aims to have clear and reviewed specificatio
 
 ## Selected Issues
 
-The team selected four issues for Sprint 1 based on the requirements and workflows defined in Assignment 1.
-
-| Issue	    | Assignment 1 source	        | Owner	            | Expected outcome	                                                                                                                                           | Reviewed acceptance criteria
-| #1	        | Workflow 1 / FR-01	            | Renad H Alotaibi  | Document course and section selection and update rules, with at least two test scenarios.	                                                                       | Rules documented; two test scenarios; peer review required.
-| #2	    | Workflow 1 / FR-08	        | Renad H Alotaibi  | Document personalized ICS subscription generation, calendar event contents, and Google/Apple Calendar subscription steps.                                   | Link generation, assessment coverage, event details, subscription steps, and review using simulated data are specified.
-| #3	    | Workflow 1 / FR-09	        | Nourah Almutairi  | Document ICS feed update behavior for published assessment date changes.                                                                                    | Update triggers, date-change handling, correct student calendars, external refresh schedules, and simulated change review are documented.
+| Issue	  | Assignment 1 source	        | Owner	            | Expected outcome	                                                                                                                                               | Reviewed acceptance criteria
+| #1	    | Workflow 1 / FR-01	        | Renad H Alotaibi  | Document course and section selection and update rules, with at least two test scenarios.	                                                                       | Rules documented; two test scenarios; peer review required.
+| #2	    | Workflow 1 / FR-08	        | Renad H Alotaibi  | Document personalized ICS subscription generation, calendar event contents, and Google/Apple Calendar subscription steps.                                       | Link generation, assessment coverage, event details, subscription steps, and review using simulated data are specified.
+| #3	    | Workflow 1 / FR-09	        | Nourah Almutairi  | Document ICS feed update behavior for published assessment date changes.                                                                                        | Update triggers, date-change handling, correct student calendars, external refresh schedules, and simulated change review are documented.
 | #9	    | Section 4.5, Workflows 1–3	| Latefa Jazaa      | Define the core academic scheduling data entities and their relationships to support student calendars, instructor assessments, and examination scheduling. | Main entities, relationships, ICS feed data, conflict detection and examination approval information are specified, with review against all three workflows required.
+
+## Workflow Rules
+
+1. Work-in-Progress (WIP) Limit: A maximum of two issues can be In Progress at the same time. If two issues are already active, the team must complete or review one before starting another.
+2. Review Before Done: Each completed issue must be reviewed by another team member to confirm that its acceptance criteria are satisfied before moving it to Done.
+3. Evidence Requirement: Every completed issue must include a link to supporting evidence in the shared GitHub repository, such as an updated file, commit, pull request, diagram, or test result.
+4. Blocked Issues: If an issue is blocked, the assigned member must add a comment explaining the problem, the help or decision needed, and who can help resolve it.
+5. Issue Completion: An issue can be moved to Done only after its acceptance criteria are satisfied, the result is stored in the shared repository, the required review is completed, and the evidence is linked. The issue must then be closed.
