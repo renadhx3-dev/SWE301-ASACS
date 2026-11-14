@@ -31,7 +31,6 @@ By the end of this sprint, the team aims to have clear and reviewed specificatio
 
 | Issue | Assignment 1 source | Owner | Expected outcome | Reviewed acceptance criteria |
 
-|---|---|---|---|---|
 
 | [#1](https://github.com/renadhx3-dev/SWE301-ASACS/issues/1) | Workflow 1 / FR1 | Renad H Alotaibi | Document course and section selection and update rules, with at least two test scenarios. | Course and section selection and update rules are documented, at least two test scenarios are included, and the rules are reviewed for clarity and consistency. |
 
