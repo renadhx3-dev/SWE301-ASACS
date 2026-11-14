@@ -13,11 +13,13 @@
 
 ## Connection to Assignment 1
 
-The Sprint 1 backlog is based on the project proposal developed in Assignment 1. The team translated the proposed system scope, workflows, and initial functional requirements into GitHub Issues.
+In Assignment 1, our team developed the ASACS project proposal, identifying the problem, main users, project scope, workflows, and initial functional requirements.
 
-The selected issues support the main ASACS features, including student course and section selection, personalized ICS calendar subscriptions, calendar feed updates, and the core academic scheduling data model.
+In Assignment 2, we used the work completed in Assignment 1 as the foundation for creating our GitHub backlog. We translated the proposed features and requirements into 12 GitHub Issues, each with a required outcome, acceptance criteria, and a source reference to the project proposal.
 
-These tasks are connected to the project requirements and workflows documented in `PROJECT_PROPOSAL.md`. They provide a foundation for developing the system's main functionality in future increments.
+The selected issues for Sprint 1 focus on important parts of the proposed system, including course and section selection, personalized ICS calendar subscriptions, calendar feed updates, and the core academic scheduling data model.
+
+This allows us to move from project planning in Assignment 1 to organizing and preparing the work for development in Assignment 2.
 
 ## Sprint goal
 
