@@ -32,11 +32,11 @@ By the end of this sprint, the team aims to have clear and reviewed specificatio
 | Issue | Assignment 1 source | Owner | Expected outcome | Reviewed acceptance criteria |
 
 
-| [#1](https://github.com/renadhx3-dev/SWE301-ASACS/issues/1) | Workflow 1 / FR1 | Renad H Alotaibi | Document course and section selection and update rules, with at least two test scenarios. | Course and section selection and update rules are documented, at least two test scenarios are included, and the rules are reviewed for clarity and consistency. |
+| [#1](https://github.com/renadhx3-dev/SWE301-ASACS/issues/1) | Workflow 1 / FR-01 | Renad H Alotaibi | Document course and section selection and update rules, with at least two test scenarios. | Course and section selection and update rules are documented, at least two test scenarios are included, and the rules are reviewed for clarity and consistency. |
 
-| [#2](https://github.com/renadhx3-dev/SWE301-ASACS/issues/2) | Workflow 1 / FR8 | Renad H Alotaibi | Document personalized ICS subscription generation, calendar event contents, and Google/Apple Calendar subscription steps. | Link generation, assessment coverage, event details, subscription steps, and review using simulated data are specified. |
+| [#2](https://github.com/renadhx3-dev/SWE301-ASACS/issues/2) | Workflow 1 / FR-08 | Renad H Alotaibi | Document personalized ICS subscription generation, calendar event contents, and Google/Apple Calendar subscription steps. | Link generation, assessment coverage, event details, subscription steps, and review using simulated data are specified. |
 
-| [#3](https://github.com/renadhx3-dev/SWE301-ASACS/issues/3) | Workflow 1 / FR9 | Nourah Almutairi | Document ICS feed update behavior for published assessment date changes. | Update triggers, date-change handling, correct student calendars, external refresh schedules, and simulated change review are documented. |
+| [#3](https://github.com/renadhx3-dev/SWE301-ASACS/issues/3) | Workflow 1 / FR-09 | Nourah Almutairi | Document ICS feed update behavior for published assessment date changes. | Update triggers, date-change handling, correct student calendars, external refresh schedules, and simulated change review are documented. |
 
 | [#9](https://github.com/renadhx3-dev/SWE301-ASACS/issues/9) | Section 4.5, Workflows 1–3 | Latefa Jazaa | Define the core academic scheduling data entities and their relationships to support student calendars, instructor assessments, and examination scheduling. | Main entities, relationships, ICS feed data, conflict detection and examination approval information are specified, with review against all three workflows required. |
 
