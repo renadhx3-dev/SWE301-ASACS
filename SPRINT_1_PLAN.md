@@ -7,13 +7,13 @@
   - Renad H Alotaibi
   - Latefa Jazaa
   - Nourah Almutairi
-- **GitHub Repository:** https://github.com/renadhx3-dev/SWE301-ASACS
-- **GitHub Project URL:** https://github.com/users/renadhx3-dev/projects/1
+- **GitHub Repository:** [SWE301-ASACS Repository](https://github.com/renadhx3-dev/SWE301-ASACS)
+- **GitHub Project URL:** [ASACS Project Board](https://github.com/users/renadhx3-dev/projects/1)
 - **Sprint dates:** November 14, 2026 – November 27, 2026
 
 ## Connection to Assignment 1
 
-In Assignment 1, our team developed the ASACS project proposal, identifying the problem, main users, project scope, workflows, and initial functional requirements.
+In Assignment 1, our team developed the ASACS project proposal, identifying the problem, main actors, project scope, workflows, and initial functional requirements.
 
 In Assignment 2, we used the work completed in Assignment 1 as the foundation for creating our GitHub backlog. We translated the proposed features and requirements into 12 GitHub Issues, each with a required outcome, acceptance criteria, and a source reference to the project proposal.
 
